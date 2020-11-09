@@ -161,7 +161,7 @@ public class SocketServer {
         ProcessBuilder clientBuilder = new ProcessBuilder(
                 "java",
                 "-jar",
-                "C:\\Users\\Анто\\IdeaProjects\\llll\\out\\artifacts\\os_1_lab_jar\\os_1_lab.jar",
+                "C:\\Users\\User\\IdeaProjects\\lab_javaaa1\\out\\artifacts\\os_1_lab_jar\\os_1_lab.jar",
                 this.listenAddress.getHostName(),
                 this.listenAddress.getPort() + "",
                 function, // funcF or funcG
